@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main() 
+{
+    int a=0,b=1,c,i=1,limit=20;
+    printf("add limit");
+    scanf("%d",&limit);
+    printf("%d\n",a);
+    printf("%d\n",b);
+    while(i<=limit)
+    {
+        c=a+b;
+        printf("%d\n",c);
+        a=b;
+        b=c;
+        i++;
+    }
+    
+    return 0;
+}
